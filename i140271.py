@@ -25,7 +25,7 @@ class AdditionTest(unittest.TestCase):
     def test1(self):
         self.assertEqual(add(5,5), 10)
     def test2(self):
-        self.assertEqual(sub(5,5), -10)
+        self.assertEqual(sub(5,5), 0)
 
 if __name__ == '__main__':
     unittest.main()
